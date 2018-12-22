@@ -21,6 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         print ("making 2 nd as head")
         print("BRANCH tmp2 - shud not go")
         print("commit from xcode")
+        print("2nd commit from xcode directly pushing to repo")
         return true
     }
 
