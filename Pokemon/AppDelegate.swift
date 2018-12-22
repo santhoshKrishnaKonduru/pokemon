@@ -20,6 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         print("meerge fixes new branch")
         print ("making 2 nd as head")
         print("BRANCH tmp2 - shud not go")
+        print("commit from xcode")
         return true
     }
 
