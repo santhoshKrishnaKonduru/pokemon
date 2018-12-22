@@ -18,6 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         print("AppDelegate")
         print("meerge fixes new branch")
+        print ("making 2 nd as head")
         return true
     }
 
