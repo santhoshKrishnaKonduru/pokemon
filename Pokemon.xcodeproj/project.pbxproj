@@ -187,7 +187,7 @@
 				TargetAttributes = {
 					14E5802B1D6D85A500381EFE = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = G7L36L62ZG;
+						DevelopmentTeam = ZRPL2B2TTJ;
 					};
 				};
 			};
@@ -402,11 +402,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = ZRPL2B2TTJ;
 				INFOPLIST_FILE = Pokemon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "santhosh-krishna.Pokemon";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -417,11 +419,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = ZRPL2B2TTJ;
 				INFOPLIST_FILE = Pokemon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "santhosh-krishna.Pokemon";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

@@ -30,7 +30,7 @@ import Foundation
 extension Manager {
     private enum Streamable {
         case Stream(String, Int)
-        case NetService(NSNetService)
+        case NetService(NetService)
     }
 
     private func stream(streamable: Streamable) -> Request {

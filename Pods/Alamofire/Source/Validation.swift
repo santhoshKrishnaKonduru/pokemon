@@ -41,7 +41,7 @@ extension Request {
         A closure used to validate a request that takes a URL request and URL response, and returns whether the 
         request was valid.
     */
-    public typealias Validation = (NSURLRequest?, NSHTTPURLResponse) -> ValidationResult
+    public typealias Validation = (NSURLRequest?, HTTPURLResponse) -> ValidationResult
 
     /**
         Validates the request, using the specified closure.
@@ -55,7 +55,7 @@ extension Request {
     public func validate(validation: Validation) -> Self {
         delegate.queue.addOperationWithBlock {
             if let
-                response = self.response where self.delegate.error == nil,
+                response = self.response, self.delegate.error == nil,
                 case let .Failure(error) = validation(self.request, response)
             {
                 self.delegate.error = error
