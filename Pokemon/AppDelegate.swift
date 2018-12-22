@@ -19,6 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         print("AppDelegate")
         print("meerge fixes new branch")
         print ("making 2 nd as head")
+        print("BRANCH tmp2 - shud not go")
         return true
     }
 
